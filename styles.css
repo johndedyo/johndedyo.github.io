@@ -1,0 +1,603 @@
+/* Reset default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #004084;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+/* Style for mouse hover over links */
+a:hover {
+    color: #2e96fd;
+}
+
+/* Body Styling */
+html, body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main-box {
+        /* Add these properties */
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    min-width: 280px; /* Minimum width to prevent extreme shrinking */
+     margin: 0 auto; /* Center the box */
+    position: relative;
+    max-width: 1200px;
+    width: 90%;
+    min-height: 645px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    text-align: left;
+    display: flex;
+    padding-bottom: 125px;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-weight: 450;
+    color: #2c3e50;
+    letter-spacing: 0.01em;
+    line-height: 1.0;
+    margin-bottom: 20px;
+}
+
+/* Name Styling */
+h1 {
+    font-family: "Source Sans Pro", "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    letter-spacing: 0.025em;
+    font-weight: 600;
+    text-align: left;
+    color: #2c3e50;
+}
+
+/* Title link styling */
+h1 a {
+    color: #192027da;
+    text-decoration: none;
+    font-weight: inherit;
+    transition: all 0.3s ease;
+}
+
+h1 a:hover {
+    color: #1e1e1ea2;
+    text-decoration: none;
+}
+
+/* Navigation Bar Styling */
+body.page-index .nav-bar, 
+body.page-cv .nav-bar{
+    margin-bottom: 30px;
+    width: 100%;
+}
+/* Apply only to index.html and research.html */
+.nav-bar{
+    width: 100%;
+}
+
+
+.nav-bar ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+    justify-content: left;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #2c3e50;
+    font-family: "Source Sans Pro", "Open Sans", Helvetica, Arial, sans-serif;
+    transition: color 0.3s;
+    white-space: nowrap;
+    font-size: 1.125rem;
+}
+
+/* Hover Effect */
+.nav-bar ul li a:hover,
+.nav-bar ul li a.active:hover {
+    color: rgba(0, 0, 0, 0.46);
+}
+
+/* Active Link Styling */
+.nav-bar ul li a.active {
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+    color: #2c3e50;
+}
+
+/* Content Styling */
+.content {
+    font-family: "Source Sans Pro", "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
+    flex: 1;
+    padding: 0px 0px;
+}
+
+/* Yale Logo Styling */
+.yale-logo {
+    position: absolute;
+    padding-left: 10px;
+    bottom: 20px;
+    right: 20px;
+}
+
+.yale-logo img {
+    max-width: 75px;
+    height: auto;
+}
+
+/* Welcome Text Styling */
+.welcome-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Content Layout */
+.content-layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+h3 {
+    text-decoration: underline;
+    font-weight: normal;
+    margin-top: 15px;
+    padding: 0px 0;
+    color: #2c3e50;
+    font-size: 1.1rem;
+}
+
+h4 {
+    /* text-decoration: underline; */
+    margin-left: 0px;
+    font-weight: strong;
+    font-size: 0.95rem;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    padding: 0px 0;
+    color: #2c3e50;
+}
+
+.policy_paper {
+    margin-left: 0px;
+}
+
+.Research-Content p {
+    font-size: 0.95rem;
+    margin-top: 10px;
+    /* margin-bottom: 5px; */
+    color: #2c3e50;
+}
+
+.Research-Content p a {
+    display: inline-block;
+}
+
+.Research-Content p strong {
+    display: inline-block;
+    font-weight: 600;
+}
+
+.policy_paper p {
+    font-size: 0.95rem;
+    margin-top: 10px;
+}
+
+.bullet-list p {
+    line-height: 2.3;
+    margin-left: 0px;
+}
+
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #777;
+    padding: 10px 0;
+    background-color: #f1f1f1;
+    width: 100%;
+    margin-top: auto;
+}
+
+.line {
+    display: flex;
+    align-items: left;
+    gap: 10px;  /* Adds space between the button and link */
+}
+
+.line a {
+   font-size: 0.9rem;
+   margin-top: 0px;    /* Ensures consistent line height */
+
+}
+
+
+.dropdown-section {
+    margin-bottom: 10px;
+}
+
+.dropdown-btn {
+    margin-top: 10px;
+    background: none;
+    border: none;
+    text-align: left;
+    width: 100%;
+    padding: 5px 0;
+    cursor: pointer;
+    font-size: 17px;
+    color: #2c3e50;
+    text-decoration: underline;
+    /* font-style: italic; */
+    font-weight: normal;
+}
+
+.dropdown-btn:hover {
+    color: #1e1e1ea2;
+}
+
+.dropdown-content {
+    font-size: 0.95rem;
+    display: none;
+    padding-left: 0px;
+    transition: all 0.3s ease;
+
+}
+
+.dropdown-content.show {
+    display: block;
+}
+
+
+
+/* Dropdown Abstract Styling */
+.abstract {
+    display: none;
+    background-color: #ffffff;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left:0px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.abstract p {
+    margin-top: 0px;
+    max-width: 1100px;
+}
+
+.abstract-toggle {
+    background: none;
+    border: none;
+    padding-bottom: 0px;
+    color: #2c3e50;
+    cursor: pointer;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-size: 0.9rem;
+}
+
+.abstract-toggle:hover {
+    text-decoration: underline;
+}
+
+.johnny-picture img {
+    max-width: 300px; /* Smaller default size */
+    height: auto;
+    align-items: auto;
+    display: flex;
+    border-radius: 5px;
+}
+
+.subcategories {
+    margin-left: 0em;        /* Indents the whole block */
+    /* padding-left: 1em;       /* Adds spacing inside the block */
+    /* border-left: 0.5px solid #ccc; Optional: vertical line to visually separate */ 
+}
+
+.subcategories h4 {
+    margin-top: 1em;
+    color: #333;
+}
+
+.teaching-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 1.5em;
+    gap: 2em;
+    flex-wrap: wrap; /* Allows responsiveness */
+}
+
+.teaching-photo {
+    width: 55%;
+    height: auto;
+    margin-top: 0px;
+    border-radius: 5px;
+}
+.teaching-text {
+    flex: 1;
+    max-width: 600px;
+    font-size: 1.1rem;
+    margin-top: 0px;
+    color: #333;
+}
+
+
+
+/* Mobile Styles for Screens up to 480px */
+@media (max-width: 480px) {
+    main {
+        flex: 1;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    /* Ensure the main box takes up the full screen */
+    .main-box {
+        width: 100%; /* Full width */
+        min-height: 100vh; /* Full height */
+        padding: 20px; /* Adjust padding to prevent overflow */
+        border-radius: 0; /* Remove rounded corners */
+        box-shadow: none; /* Remove shadows for a cleaner look */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .content-layout {
+        display: flex;
+        flex-direction: row; /* Keep elements in a row */
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .cormac-picture {
+        flex: 0 0 auto; /* Don't allow the image container to grow or shrink */
+        margin-right: 10px; /* Add some space between image and text */
+    }
+
+    .cormac-picture img {
+        max-width: 160px !important;
+        height: auto;
+        margin-bottom: 0; 
+    }
+
+    /* Style the text container */
+    .content-layout > div:last-child {
+        flex: 1; /* Allow the text container to take up remaining space */
+    }
+
+    /* Adjust text sizing for mobile */
+    .content-layout p {
+        font-size: 20px;
+        width: 100%; 
+        margin: 0 0 5px 0;
+    }
+
+    /* Remove extra spacing that might be causing issues */
+    .content {
+        padding: 0;
+        margin: 0;
+        
+    }
+    .content p{
+        font-size: 15px;
+    }
+    /* Navigation Bar Styling */
+       /* Navigation Bar Styling */
+       .nav-bar {
+        margin-bottom: 15px;
+        width: 100%;
+       
+    }
+    .nav-bar ul {
+        gap: 5%;
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap; /* Prevent wrapping to new line */
+        padding: 0;
+        margin: 0;
+        justify-content: left; /* Distribute items evenly */
+        width: 100%; 
+        /* margin-right: 10px; */
+    }
+
+    .nav-bar li {
+        margin: 0;
+        padding: 0;
+        flex-shrink: 1; /* Allow items to shrink */
+        align-items: center;
+    }
+    
+    .nav-bar a {
+        font-size: 14px !important; /* Force the font size */
+        padding:0px 0px; /* Reduce padding even more */
+        white-space: nowrap;
+        text-decoration: none;
+        display: block;
+        
+    }
+
+    .Research-Content p {
+    margin-top: 10px;
+    font-size: 14px !important; 
+    }
+    .yale-logo {
+        display: none;
+        /* margin-left: 5px; */
+    }
+
+    .policy_paper {
+        margin-left: 0px !important;
+        font-size: 18px !important; 
+    }
+    .abstract-toggle{
+        font-size: 14px !important;  
+        margin-left: 0px;
+    }
+    .abstract {
+        font-size: 14px !important;  
+        margin-left: 0px;
+        margin-top: 0 !important;
+    }
+    
+
+    .abstract p{
+        margin-top: 0 !important;
+    }
+    
+    .bullet-list p {
+        margin-left: 0px;
+    }
+
+    h1 {
+        font-size: 25px!important;  
+        margin-top: 5; /* Adjusted to fit the layout */
+    }
+
+    h2 {
+        font-size: 20px !important; 
+    }
+    h3 {
+        padding: 0px;
+        font-size: 18px !important; 
+
+    }
+    h4 {
+        margin-left: 0px !important;
+        font-size: 18px !important; 
+    }
+
+    .line{
+        padding-bottom: 5px;
+    }
+    .line a {
+        font-size: 14px !important;
+    }
+    
+    .dropdown-section{
+        font-size: 14px !important; 
+        margin-bottom: 0px;
+    }
+    .dropdown-btn {
+        margin-top: 5px;
+        font-size: 14px;
+    }
+
+    .teaching-section {
+        flex-direction: column;
+        align-items: left;
+        text-align: left;
+    }
+
+    .teaching-photo {
+        width: 100% !important; /* Adjust as needed for smaller screens */
+        margin-bottom: 0em !important;
+    }
+
+    .teaching-text {
+        max-width: 100%;
+        margin-top: 0em !important;
+        font-size: 14px;
+    }
+}
+
+/* Tablet Styles for Screens up to 720px */
+@media (max-width: 720px) {
+    .content-layout {
+        flex-direction: column; /* Stack content */
+        align-items: flex-start; /* Align items to the left */
+    }
+
+    .cormac-picture img {
+        max-width: 40%; /* Medium size for tablets */
+        margin-bottom: 15px; /* Space below the image */
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        margin-top: 0; /* Adjusted to fit the layout */
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+   
+    .content {
+        font-size: 0.9rem;
+    }
+
+    .nav-bar ul{
+        gap: 4%;
+    }
+
+    .nav-bar a {
+        font-size: 14px !important; /* Force the font size */
+        padding:0px 0px; /* Reduce padding even more */
+        white-space: nowrap;
+        text-decoration: none;
+        display: block;
+        
+    }
+
+    .teaching-section {
+        /* flex-direction: column; */
+        align-items: left;
+        text-align: left;
+    }
+
+    .teaching-photo {
+        width: 80%; /* Adjust as needed for smaller screens */
+        margin-bottom: 1.5em;
+    }
+
+    .teaching-text {
+        max-width: 100%;
+        font-size: 14px;
+    }
+
+    .paper .line a {
+        font-size: 14px;
+    }
+    
+}
+
+
