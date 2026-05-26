@@ -1,7 +1,7 @@
 ---
 title: "Using Large Language Models to Measure U.S. Retirement Plan Design at Scale: Methods and Evidence"
 collection: publications
-category: manuscripts
+category: working_papers
 permalink: /publication/401k_llm
 excerpt: 'Using an LLM-based pipeline we produce a dataset covering nearly 150,000 distinct plans over 21 years (2003-2024), yielding over one million plan-year observations: more than twentyfold the coverage of existing hand-collected data. This expansion enables the first comprehensive population-level analysis of retirement plan design.'
 date: 2026-06-01
