@@ -4,7 +4,7 @@ collection: publications
 category: working_papers
 permalink: /publication/401k_llm
 excerpt: 'Using an LLM-based pipeline we produce a dataset covering nearly 150,000 distinct plans over 21 years (2003-2024), yielding over one million plan-year observations: more than twentyfold the coverage of existing hand-collected data. This expansion enables the first comprehensive population-level analysis of retirement plan design.'
-date: 2026-06-01
+date: 2026-02-01
 venue: 'Forthcoming'
 slidesurl: 'https://jdedyo.github.io/files/401k_llm_paper/nber_slides_final.pdf'
 paperurl: 'https://jdedyo.github.io/files/401k_llm_draft.pdf'
