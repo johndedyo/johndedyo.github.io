@@ -14,7 +14,7 @@ Education
 * Ph.D. in Business Economics, Harvard University, 2026--Present
 * B.S. in Applied Mathematics and in Economics, Yale University, 2026
 
-**Awards**
+Awards
 ======
 * Arthur Twining Hadley Prize (2026)
   * Awarded to the senior in Yale College majoring in the social sciences who ranks highest in scholarship.
@@ -50,9 +50,3 @@ Talks
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
-#Teaching
-#======
-#  <ul>{% for post in site.teaching reversed %}
-#    {% include archive-single-cv.html %}
-#  {% endfor %}</ul>
