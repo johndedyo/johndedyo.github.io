@@ -1,6 +1,6 @@
 ---
 title: "Lottery Preferences and AI Stock Exuberance"
-excerpt: "An analysis of equity overpricing in the AI sector through the lens of behavioral finance<br/><img src='/images/thesis/varying_skewness.png' width='300'>"
+excerpt: "An analysis of equity overpricing in the AI sector through the lens of behavioral finance.<br/><img src='/images/thesis/varying_skewness.png' width='300'>"
 collection: portfolio
 paperurl: 'https://jdedyo.github.io/files/Dedyo_Senior_Thesis.pdf'
 ---
