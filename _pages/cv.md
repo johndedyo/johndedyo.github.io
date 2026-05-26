@@ -11,35 +11,33 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D. in Business Economics, Harvard University, 2026--Present
+* B.S. in Applied Mathematics and in Economics, Yale University, 2026
+
+**Awards**
+======
+* Arthur Twining Hadley Prize (2026)
+  * Awarded to the senior in Yale College majoring in the social sciences who ranks highest in scholarship.
+* Yale Science & Engineering Association Award for Outstanding Undergraduate Achievement (2026)
+  * Based on faculty recommendations, this recognition honors seniors who have distinguished themselves through academic achievement, research, service, and leadership.
+* Phi Beta Kappa, First Election (2025)
+* Columbia University Science Honors Program (2020-2022)
+* Coolidge Senator (2021)
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Yale Department of Economics: Research Assistant (August 2024--June 2026)
+  * Collaboration between Yale Economics and MIT Sloan investigating 401(k) & 403(b) retirement saving behavior and equity. Research assistantship funded by a Tobin Undergraduate Research Assistantship and a Herb Scarf Summer Research Assistantship.
+  * Supervisor: Cormac O'Dea
+  * Collaborators: Taha Choukhmane, Lawrence D.W. Schmidt
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Ellington Management Group, NYC: Research Intern (June 2025--August 2025)
+  *  Multi-strategy structured credit hedge fund with $15+B AUM.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Yale Department of Applied Physics: Research Group Member (June 2023--December 2024)
+  * Independent special project in the Yale Energy Sciences Institute’s Miller Group to design an all-angle color sorting optical device for application in photovoltaics.
+  * Awarded the Yale College Dean’s Research Fellowship in the Sciences, fully-funding original research leveraging a novel optimization framework for photonic design, with implications for the design of optical computing devices.
+  * Supervisor: Owen D. Miller
 
 Publications
 ======
@@ -53,12 +51,8 @@ Talks
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+#Teaching
+#======
+#  <ul>{% for post in site.teaching reversed %}
+#    {% include archive-single-cv.html %}
+#  {% endfor %}</ul>
