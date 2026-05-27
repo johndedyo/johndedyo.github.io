@@ -46,10 +46,8 @@
 
 {% elsif post.collection == 'portfolio' %}
   <p class="page__date">
-    <strong>Date:</strong>
-    <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">
-      {{ post.date | default: "1900-01-01" | date: "%Y" }}
-    </time>
+    <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+    {{ post.date | default: "1900-01-01" | date: "%Y" }}
   </p>
 
 {% elsif post.date %}
