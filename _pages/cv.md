@@ -14,7 +14,7 @@ Education
 * Ph.D. in Business Economics, Harvard University, 2026--Present
 * B.S. in Applied Mathematics and in Economics, Yale University, 2026
 
-<hr>
+<hr style="border: none; height: 2px; background-color: #555; margin: 2em 0;">
 
 Awards
 ======
@@ -26,7 +26,7 @@ Awards
 * Columbia University Science Honors Program (2020-2022)
 * Coolidge Senator (2021)
 
-<hr>
+<hr style="border: none; height: 2px; background-color: #555; margin: 2em 0;">
 
 Work experience
 ======
@@ -43,7 +43,7 @@ Work experience
   * Awarded the Yale College Dean’s Research Fellowship in the Sciences, fully-funding original research leveraging a novel optimization framework for photonic design, with implications for the design of optical computing devices.
   * Supervisor: Owen D. Miller
 
-<hr>
+<hr style="border: none; height: 2px; background-color: #555; margin: 2em 0;">
 
 Publications
 ======
@@ -51,7 +51,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-<hr>
+<hr style="border: none; height: 2px; background-color: #555; margin: 2em 0;">
 
 Talks
 ======
