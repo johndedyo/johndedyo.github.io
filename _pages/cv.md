@@ -13,7 +13,9 @@ Education
 ======
 * Ph.D. in Business Economics, Harvard University, 2026--Present
 * B.S. in Applied Mathematics and in Economics, Yale University, 2026
----
+
+<hr>
+
 Awards
 ======
 * Arthur Twining Hadley Prize (2026)
@@ -23,7 +25,9 @@ Awards
 * Phi Beta Kappa, First Election (2025)
 * Columbia University Science Honors Program (2020-2022)
 * Coolidge Senator (2021)
----
+
+<hr>
+
 Work experience
 ======
 * Yale Department of Economics: Research Assistant (August 2024--June 2026)
@@ -38,14 +42,17 @@ Work experience
   * Independent special project in the Yale Energy Sciences Institute’s Miller Group to design an all-angle color sorting optical device for application in photovoltaics.
   * Awarded the Yale College Dean’s Research Fellowship in the Sciences, fully-funding original research leveraging a novel optimization framework for photonic design, with implications for the design of optical computing devices.
   * Supervisor: Owen D. Miller
----
+
+<hr>
+
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
----
+<hr>
+
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
