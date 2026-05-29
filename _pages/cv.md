@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * Ph.D. in Business Economics, Harvard University, 2026--Present
-* B.S. in Applied Mathematics and in Economics, Yale University, 2026
+* B.S. in Applied Mathematics *with distinction* and in Economics, *summa cum laude*, Yale University, 2026
 
 <hr style="border: 0; border-top: 2px solid #888; margin: 2em 0;">
 
