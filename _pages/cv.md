@@ -24,7 +24,7 @@ Awards
   * Based on faculty recommendations, this recognition honors seniors who have distinguished themselves through academic achievement, research, service, and leadership.
 * Phi Beta Kappa, First Election (2025)
 * Columbia University Science Honors Program (2020-2022)
-* Coolidge Senator (2021)
+* [Coolidge Senator](https://coolidgescholars.org/coolidge-senators/#2021) (2021)
 
 <hr style="border: none; height: 2px; background-color: #555; margin: 2em 0;">
 
