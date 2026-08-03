@@ -18,9 +18,9 @@ Education
 
 Awards
 ======
-* Arthur Twining Hadley Prize (2026)
+* [Arthur Twining Hadley Prize](https://news.yale.edu/2026/05/17/twelve-seniors-receive-yale-colleges-top-student-prizes) (2026)
   * Awarded to the senior in Yale College majoring in the social sciences who ranks highest in scholarship.
-* Yale Science & Engineering Association Award for Outstanding Undergraduate Achievement (2026)
+* [Yale Science & Engineering Association Award for Outstanding Undergraduate Achievement](https://ysea.org/awards/student-awards/seniors-of-distinction/) (2026)
   * Based on faculty recommendations, this recognition honors seniors who have distinguished themselves through academic achievement, research, service, and leadership.
 * Phi Beta Kappa, First Election (2025)
 * Columbia University Science Honors Program (2020-2022)
